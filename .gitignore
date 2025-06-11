@@ -1,0 +1,10 @@
+# node_modules no se sube nunca
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# .env (si usaras variables de entorno en el futuro)
+.env
