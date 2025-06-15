@@ -8,7 +8,7 @@ const items = [
     genres: ["Sci‑Fi", "Action", "Thriller"],
     poster: "https://image.tmdb.org/t/p/w500/oYuLEt3zVCKq57qu2F8dT7NIa6f.jpg",
     backdrop: "https://image.tmdb.org/t/p/w1280/s3TBrRGB1iav7gFOCNx3H31MoES.jpg",
-    overview: "A thief who steals corporate secrets through the use of dream-sharing technology...",
+    overview: "Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his targets is offered a chance to regain his old life as payment for a task considered to be impossible: inception, the implantation of another person's idea into a target's subconscious.",
     cast: ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Elliot Page"],
     director: "Christopher Nolan",
     mediaType: "movie",
@@ -30,7 +30,7 @@ const items = [
     genres: ["Crime", "Drama", "Thriller"],
     poster: "https://image.tmdb.org/t/p/w500/ztkUQFLlC19CCMYHW9o1zWhJRNq.jpg",
     backdrop: "https://image.tmdb.org/t/p/w1280/tsRy63Mu5cu8etL1X7ZLyf7UP1M.jpg",
-    overview: "A high school chemistry teacher turned methamphetamine producer...",
+    overview: "Walter White, a New Mexico chemistry teacher, is diagnosed with Stage III cancer and given a prognosis of only two years left to live. He becomes filled with a sense of fearlessness and an unrelenting desire to secure his family's financial future at any cost as he enters the dangerous world of drugs and crime.",
     cast: ["Bryan Cranston", "Aaron Paul", "Anna Gunn"],
     mediaType: "tv",
     releaseDate: "2008-01-20",
@@ -51,7 +51,7 @@ const items = [
     genres: ["Action", "Crime", "Drama"],
     poster: "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
     backdrop: "https://image.tmdb.org/t/p/original/oOv2oUXcAaNXakRqUPxYq5lJURz.jpg",
-    overview: "Batman raises the stakes in his war on crime...",
+    overview: "Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker.",
     cast: ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
     director: "Christopher Nolan",
     mediaType: "movie",
@@ -73,7 +73,7 @@ const items = [
     genres: ["Horror", "Mystery", "Sci‑Fi"],
     poster: "https://image.tmdb.org/t/p/w500/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg",
     backdrop: "https://image.tmdb.org/t/p/w1280/x2LSRK2Cm7MZhjluni1msVJ3wDF.jpg",
-    overview: "When a young boy vanishes, a small town uncovers a mystery...",
+    overview: "When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces, and one strange little girl.",
     cast: ["Millie Bobby Brown", "Finn Wolfhard", "Winona Ryder"],
     mediaType: "tv",
     releaseDate: "2016-07-15",
@@ -94,7 +94,7 @@ const items = [
     genres: ["Adventure", "Drama", "Sci‑Fi"],
     poster: "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
     backdrop: "https://image.tmdb.org/t/p/w1280/rAiYTfKGqDCRIIqo664sY9XZIvQ.jpg",
-    overview: "A team of explorers travel through a wormhole in space...",
+    overview: "The adventures of a group of explorers who make use of a newly discovered wormhole to surpass the limitations on human space travel and conquer the vast distances involved in an interstellar voyage.",
     cast: ["Matthew McConaughey", "Anne Hathaway", "Jessica Chastain"],
     director: "Christopher Nolan",
     mediaType: "movie",
@@ -116,39 +116,39 @@ const items = [
     genres: ["Biography", "Drama", "History"],
     poster: "https://image.tmdb.org/t/p/original/1ZMVKJoWK5KfxaQA8BwpfOEYKKy.jpg",
     backdrop: "https://image.tmdb.org/t/p/original/1exKX0EO9BWmHGxCOJ1rgWyFKze.jpg",
-    overview: "Follows the political rivalries and romance of Queen Elizabeth II's reign...",
+    overview: "The gripping, decades-spanning inside story of Her Majesty Queen Elizabeth II and the Prime Ministers who shaped Britain's post-war destiny. The Crown tells the inside story of two of the most famous addresses in the world. Buckingham Palace and 10 Downing Street, and the intrigues, love lives and machinations behind the great events that shaped the second half of the 20th century. Two houses, two courts, one Crown.",
     cast: ["Olivia Colman", "Tobias Menzies", "Helena Bonham Carter"],
     mediaType: "tv",
     releaseDate: "2016-11-04",
-    seasons: 5,
+    seasons: 6,
     rating: 8.6,
     voteCount: 80000,
     language: "en",
     country: "UK",
-    trailerUrl: "https://www.youtube.com/watch?v=1z8j2k3b4aE",
+    trailerUrl: "https://youtu.be/JWtnJjn6ng0?si=cq2ADUePYmJVZM_h",
     availableOn: ["Netflix"]
   },
   {
     id: 7,
-    title: "The Matrix",
+    title: "Se7en",
     type: "movie",
-    year: 1999,
-    genre: "Action, Sci-Fi",
-    genres: ["Action", "Sci‑Fi"],
-    poster: "https://image.tmdb.org/t/p/original/plYYSxZ9Wdq4thyVSkhJjbjYtVG.jpg",
-    backdrop: "https://image.tmdb.org/t/p/original/wkzeNsJjQBYCzkbiI2jxWnlrwR6.jpg",
-    overview: "A computer hacker learns from mysterious rebels about the true nature of his reality...",
-    cast: ["Keanu Reeves", "Laurence Fishburne", "Carrie-Anne Moss"],
-    director: "Lana Wachowski, Lilly Wachowski",
+    year: 1995,
+    genre: "Thriller",
+    genres: ["Crime", "Mystery", "Thriller"],
+    poster: "https://image.tmdb.org/t/p/original/lVFZpt5BoUFTUwUGgVGgGQ51G6Q.jpg",
+    backdrop: "https://image.tmdb.org/t/p/original/iTZKxKOvVTGKZvMmgjs4NSyNQFZ.jpg",
+    overview: "What´s in the Box?: Two homicide detectives are on a desperate hunt for a serial killer whose crimes are based on the seven deadly sins in this dark and haunting film that takes viewers from the tortured remains of one victim to the next. The seasoned Det. Somerset researches each sin in an effort to get inside the killer's mind, while his novice partner, Mills, scoffs at his efforts to unravel the case.",
+    cast: ["Morgan Freeman", "Brad Pitt", "Kevin Spacey"],
+    director: "David Fincher",
     mediaType: "movie",
-    releaseDate: "1999-03-31",
-    duration: "136 min",
-    rating: 8.7,
-    voteCount: 120000,
+    releaseDate: "1995-09-22",
+    duration: "127 min",
+    rating: 8.6,
+    voteCount: 700000,
     language: "en",
     country: "USA",
-    trailerUrl: "https://www.youtube.com/watch?v=vKQi3bpI4dk",
-    availableOn: ["HBO Max", "Apple TV"]
+    trailerUrl: "https://youtu.be/KPOuJGkpblk?si=VMtMmq7CYkd-kPx5",
+    availableOn: ["Amazon Prime", "Apple TV"]
   },
   {
     id: 8,
@@ -159,7 +159,7 @@ const items = [
     genres: ["Action", "Adventure", "Drama"],
     poster: "https://image.tmdb.org/t/p/original/OILLsKfhoQMGLXrv2rdrebD9MG.jpg",
     backdrop: "https://image.tmdb.org/t/p/original/4kTINu9mv2YV1PqFqPGG1FZMnhi.jpg",
-    overview: "Nine noble families fight for control over the mythical land of Westeros...",
+    overview: "Seven noble families fight for control of the mythical land of Westeros. Friction between the houses leads to full-scale war. All while a very ancient evil awakens in the farthest north. Amidst the war, a neglected military order of misfits, the Night's Watch, is all that stands between the realms of men and icy horrors beyond.",
     cast: ["Emilia Clarke", "Kit Harington", "Peter Dinklage"],
     mediaType: "tv",
     releaseDate: "2011-04-17",
@@ -211,7 +211,7 @@ const items = [
     voteCount: 300000,
     language: "en",
     country: "USA",
-    trailerUrl: "https://www.youtube.com/watch?v=4uG6d8a1b0c",
+    trailerUrl: "https://youtu.be/bzLn8sYeM9o?si=3i-ZUmGWKdSlm9Pq",
     availableOn: ["Amazon Prime", "Apple TV"]
   },
   {
@@ -277,7 +277,7 @@ const items = [
     voteCount: 600000,
     language: "en",
     country: "USA",
-    trailerUrl: "https://www.youtube.com/watch?v=1x8d9b4a5b7",
+    trailerUrl: "https://youtu.be/UUkG37KSWf0?si=A6B-fGf0M2qT6KXn",
     availableOn: ["Amazon Prime", "Apple TV"]   
   },
   {
@@ -321,7 +321,7 @@ const items = [
     voteCount: 1200000,
     language: "en",
     country: "USA",
-    trailerUrl: "https://www.youtube.com/watch?v=JdRGCW9yL2g",
+    trailerUrl: "https://youtu.be/mxphAlJID9U?si=5VLoALKx_UAUEGr5",
     availableOn: ["Amazon Prime", "Apple TV"]
   },
   {
@@ -386,7 +386,7 @@ const items = [
   voteCount: 130000,
   language: "en",
   country: "USA",
-  trailerUrl: "https://www.youtube.com/watch?v=hDNNmeeJs1Q",
+  trailerUrl: "https://youtu.be/Zg2LCD5QOJs?si=khlxGfDR2U0oD_51",
   availableOn: ["HBO Max", "Netflix"]
 },
 {
@@ -408,7 +408,7 @@ const items = [
   voteCount: 80000,
   language: "ko",
   country: "South Korea",
-  trailerUrl: "https://www.youtube.com/watch?v=5xH0HfJHsaY",
+  trailerUrl: "https://youtu.be/5xH0HfJHsaY?si=o42GsZbdVccAbdF4",
   availableOn: ["Hulu", "Amazon Prime"]
 },
 {
@@ -429,7 +429,7 @@ const items = [
   voteCount: 60000,
   language: "en",
   country: "USA",
-  trailerUrl: "https://www.youtube.com/watch?v=CDrieqwSdgI",
+  trailerUrl: "https://youtu.be/oZn3qSgmLqI?si=4Hpk15-_Ck57l9y9",
   availableOn: ["Netflix"]
 },
 {
@@ -651,7 +651,7 @@ const items = [
   voteCount: 60000,
   language: "en",
   country: "USA",
-  trailerUrl: "https://www.youtube.com/watch?v=4y2b1d3k5a5",
+  trailerUrl: "https://youtu.be/yB9vThNAIjs?si=ycFNFQyjLgm527Kx",
   availableOn: ["Netflix", "Amazon Prime Video"]
 },
 {
@@ -695,7 +695,7 @@ const items = [
   voteCount: 50000,
   language: "en",
   country: "USA",
-  trailerUrl: "https://www.youtube.com/watch?v=8g18jFHCLXk",
+  trailerUrl: "https://youtu.be/Way9Dexny3w?si=pKqUqJYM2Dboqm5d",
   availableOn: ["HBO Max", "Amazon Prime Video"]
 },
 {
