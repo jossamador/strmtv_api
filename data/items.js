@@ -1,6 +1,7 @@
 const items = [
   {
-    id: 1,
+    id: 27205,
+    mediaType: "movie",
     title: "Inception",
     type: "movie",
     year: 2010,
@@ -11,7 +12,6 @@ const items = [
     overview: "Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his targets is offered a chance to regain his old life as payment for a task considered to be impossible: inception, the implantation of another person's idea into a target's subconscious.",
     cast: ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Elliot Page"],
     director: "Christopher Nolan",
-    mediaType: "movie",
     releaseDate: "2010-07-16",
     duration: "148 min",
     rating: 8.8,
@@ -22,7 +22,8 @@ const items = [
     availableOn: ["Netflix", "Apple TV"]
   },
   {
-    id: 2,
+    id: 1396,
+    mediaType: "tv",
     title: "Breaking Bad",
     type: "series",
     year: 2008,
@@ -32,9 +33,10 @@ const items = [
     backdrop: "https://image.tmdb.org/t/p/w1280/tsRy63Mu5cu8etL1X7ZLyf7UP1M.jpg",
     overview: "Walter White, a New Mexico chemistry teacher, is diagnosed with Stage III cancer and given a prognosis of only two years left to live. He becomes filled with a sense of fearlessness and an unrelenting desire to secure his family's financial future at any cost as he enters the dangerous world of drugs and crime.",
     cast: ["Bryan Cranston", "Aaron Paul", "Anna Gunn"],
-    mediaType: "tv",
+    director: "Vince Gilligan",
     releaseDate: "2008-01-20",
     seasons: 5,
+    duration: "47 min per episode",
     rating: 9.5,
     voteCount: 190000,
     language: "en",
@@ -43,7 +45,8 @@ const items = [
     availableOn: ["Netflix"]
   },
   {
-    id: 3,
+    id: 155,
+    mediaType: "movie",
     title: "The Dark Knight",
     type: "movie",
     year: 2008,
@@ -54,7 +57,6 @@ const items = [
     overview: "Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker.",
     cast: ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
     director: "Christopher Nolan",
-    mediaType: "movie",
     releaseDate: "2008-07-18",
     duration: "152 min",
     rating: 9.0,
@@ -65,7 +67,8 @@ const items = [
     availableOn: ["HBO Max", "Apple TV"]
   },
   {
-    id: 4,
+    id: 66732,
+    mediaType: "tv",
     title: "Stranger Things",
     type: "series",
     year: 2016,
@@ -75,9 +78,10 @@ const items = [
     backdrop: "https://image.tmdb.org/t/p/w1280/x2LSRK2Cm7MZhjluni1msVJ3wDF.jpg",
     overview: "When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces, and one strange little girl.",
     cast: ["Millie Bobby Brown", "Finn Wolfhard", "Winona Ryder"],
-    mediaType: "tv",
+    director: "The Duffer Brothers",
     releaseDate: "2016-07-15",
     seasons: 4,
+    duration: "50 min per episode",
     rating: 8.7,
     voteCount: 120000,
     language: "en",
@@ -86,7 +90,8 @@ const items = [
     availableOn: ["Netflix"]
   },
   {
-    id: 5,
+    id: 157336,
+    mediaType: "movie",
     title: "Interstellar",
     type: "movie",
     year: 2014,
@@ -97,7 +102,6 @@ const items = [
     overview: "The adventures of a group of explorers who make use of a newly discovered wormhole to surpass the limitations on human space travel and conquer the vast distances involved in an interstellar voyage.",
     cast: ["Matthew McConaughey", "Anne Hathaway", "Jessica Chastain"],
     director: "Christopher Nolan",
-    mediaType: "movie",
     releaseDate: "2014-11-07",
     duration: "169 min",
     rating: 8.6,
@@ -108,7 +112,8 @@ const items = [
     availableOn: ["Netflix", "Apple TV", "HBO Max"]
   },
   {
-    id: 6,
+    id: 65494,
+    mediaType: "tv",
     title: "The Crown",
     type: "series",
     year: 2016,
@@ -118,9 +123,10 @@ const items = [
     backdrop: "https://image.tmdb.org/t/p/original/1exKX0EO9BWmHGxCOJ1rgWyFKze.jpg",
     overview: "The gripping, decades-spanning inside story of Her Majesty Queen Elizabeth II and the Prime Ministers who shaped Britain's post-war destiny. The Crown tells the inside story of two of the most famous addresses in the world. Buckingham Palace and 10 Downing Street, and the intrigues, love lives and machinations behind the great events that shaped the second half of the 20th century. Two houses, two courts, one Crown.",
     cast: ["Olivia Colman", "Tobias Menzies", "Helena Bonham Carter"],
-    mediaType: "tv",
+    director: "Peter Morgan",
     releaseDate: "2016-11-04",
     seasons: 6,
+    duration: "58 min per episode",
     rating: 8.6,
     voteCount: 80000,
     language: "en",
@@ -129,7 +135,8 @@ const items = [
     availableOn: ["Netflix"]
   },
   {
-    id: 7,
+    id: 807,
+    mediaType: "movie",
     title: "Se7en",
     type: "movie",
     year: 1995,
@@ -140,7 +147,6 @@ const items = [
     overview: "What´s in the Box?: Two homicide detectives are on a desperate hunt for a serial killer whose crimes are based on the seven deadly sins in this dark and haunting film that takes viewers from the tortured remains of one victim to the next. The seasoned Det. Somerset researches each sin in an effort to get inside the killer's mind, while his novice partner, Mills, scoffs at his efforts to unravel the case.",
     cast: ["Morgan Freeman", "Brad Pitt", "Kevin Spacey"],
     director: "David Fincher",
-    mediaType: "movie",
     releaseDate: "1995-09-22",
     duration: "127 min",
     rating: 8.6,
@@ -151,7 +157,8 @@ const items = [
     availableOn: ["Amazon Prime", "Apple TV"]
   },
   {
-    id: 8,
+    id: 1399,
+    mediaType: "tv",
     title: "Game of Thrones",
     type: "series",
     year: 2011,
@@ -161,9 +168,10 @@ const items = [
     backdrop: "https://image.tmdb.org/t/p/original/4kTINu9mv2YV1PqFqPGG1FZMnhi.jpg",
     overview: "Seven noble families fight for control of the mythical land of Westeros. Friction between the houses leads to full-scale war. All while a very ancient evil awakens in the farthest north. Amidst the war, a neglected military order of misfits, the Night's Watch, is all that stands between the realms of men and icy horrors beyond.",
     cast: ["Emilia Clarke", "Kit Harington", "Peter Dinklage"],
-    mediaType: "tv",
+    director: "David Benioff, D.B. Weiss",
     releaseDate: "2011-04-17",
     seasons: 8,
+    duration: "60 min per episode",
     rating: 9.3,
     voteCount: 1600000,
     language: "en",
@@ -172,7 +180,8 @@ const items = [
     availableOn: ["HBO Max"]
   },
   {
-    id: 9,
+    id: 71912,
+    mediaType: "tv",
     title: "The Witcher",
     type: "series",
     year: 2019,
@@ -182,9 +191,10 @@ const items = [
     backdrop: "https://image.tmdb.org/t/p/original/foGkPxpw9h8zln81j63mix5B7m8.jpg",
     overview: "Geralt of Rivia, a mutated monster hunter, struggles to find his place in a world where people often prove more wicked than beasts.",
     cast: ["Henry Cavill", "Freya Allan", "Anya Chalotra"],
-    mediaType: "tv",
+    director: "Lauren Schmidt Hissrich",
     releaseDate: "2019-12-20",
     seasons: 2,
+    duration: "60 min per episode",
     rating: 8.2,
     voteCount: 100000,
     language: "en",
@@ -193,7 +203,8 @@ const items = [
     availableOn: ["Netflix"]
   },
   {
-    id:10,
+    id: 141,
+    mediaType: "movie",
     title: "Donnie Darko",
     type: "movie",
     year: 2001,
@@ -204,7 +215,6 @@ const items = [
     overview: "A troubled teenager is plagued by visions of a large rabbit that manipulates him to commit a series of crimes.",
     cast: ["Jake Gyllenhaal", "Jena Malone", "Maggie Gyllenhaal"],
     director: "Richard Kelly",
-    mediaType: "movie",
     releaseDate: "2001-10-26",
     duration: "113 min",
     rating: 8.0,
@@ -215,7 +225,8 @@ const items = [
     availableOn: ["Amazon Prime", "Apple TV"]
   },
   {
-    id: 11,
+    id: 238,
+    mediaType: "movie",
     title: "The Godfather",
     type: "movie",
     year: 1972,
@@ -226,7 +237,6 @@ const items = [
     overview: "An organized crime dynasty's aging patriarch transfers control of his clandestine empire to his reluctant son.",
     cast: ["Marlon Brando", "Al Pacino", "James Caan"],
     director: "Francis Ford Coppola",
-    mediaType: "movie",
     releaseDate: "1972-03-14",
     duration: "175 min",
     rating: 9.2,
@@ -237,7 +247,8 @@ const items = [
     availableOn: ["Amazon Prime", "Apple TV"]
   },
   {
-    id: 12,
+    id: 240,
+    mediaType: "movie",
     title: "The Godfather: Part II",
     type: "movie",
     year: 1974,
@@ -248,7 +259,6 @@ const items = [
     overview: "The early life and career of Vito Corleone in 1920s New York is portrayed while his son, Michael expands and tightens his grip on his crime syndicate stretching from Lake Tahoe to New York City.",
     cast: ["Al Pacino", "Robert De Niro", "Robert Duvall"],
     director: "Francis Ford Coppola",
-    mediaType: "movie",
     releaseDate: "1974-12-20",
     duration: "202 min",
     rating: 9.0,
@@ -259,7 +269,8 @@ const items = [
     availableOn: ["Amazon Prime", "Apple TV"]
   },
   {
-    id: 13,
+    id: 242,
+    mediaType: "movie",
     title: "The Godfather: Part III",
     type: "movie",
     year: 1990,
@@ -270,7 +281,6 @@ const items = [
     overview: "In the midst of trying to legitimize his family's business dealings, Michael Corleone seeks to reconcile with his estranged daughter.",
     cast: ["Al Pacino", "Diane Keaton", "Andy Garcia"],
     director: "Francis Ford Coppola",
-    mediaType: "movie",
     releaseDate: "1990-12-20",
     duration: "162 min",
     rating: 7.6,
@@ -281,7 +291,8 @@ const items = [
     availableOn: ["Amazon Prime", "Apple TV"]   
   },
   {
-    id: 14,
+    id: 680,
+    mediaType: "movie",
     title: "Pulp Fiction",
     type: "movie",
     year: 1994,
@@ -292,7 +303,6 @@ const items = [
     overview: "The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
     cast: ["John Travolta", "Uma Thurman", "Samuel L. Jackson"],
     director: "Quentin Tarantino",
-    mediaType: "movie",
     releaseDate: "1994-10-14",
     duration: "154 min",
     rating: 8.9,
@@ -303,7 +313,8 @@ const items = [
     availableOn: ["Amazon Prime", "Apple TV"]
   },
   {
-    id: 15,
+    id: 424,
+    mediaType: "movie",
     title: "Schindler's List",
     type: "movie",
     year: 1993,
@@ -314,7 +325,6 @@ const items = [
     overview: "In German-occupied Poland during World War II, Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution and decides to help them.",
     cast: ["Liam Neeson", "Ben Kingsley", "Ralph Fiennes"],
     director: "Steven Spielberg",
-    mediaType: "movie",
     releaseDate: "1993-12-15",
     duration: "195 min",
     rating: 9.3,
@@ -325,7 +335,8 @@ const items = [
     availableOn: ["Amazon Prime", "Apple TV"]
   },
   {
-  id: 16,
+  id: 278,
+  mediaType: "movie",
   title: "The Shawshank Redemption",
   type: "movie",
   year: 1994,
@@ -336,7 +347,6 @@ const items = [
   overview: "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
   cast: ["Tim Robbins", "Morgan Freeman", "Bob Gunton"],
   director: "Frank Darabont",
-  mediaType: "movie",
   releaseDate: "1994-09-23",
   duration: "142 min",
   rating: 9.3,
@@ -347,7 +357,8 @@ const items = [
   availableOn: ["Netflix", "Amazon Prime"]
 },
 {
-  id: 17,
+  id: 13,
+  mediaType: "movie",
   title: "Forrest Gump",
   type: "movie",
   year: 1994,
@@ -358,7 +369,6 @@ const items = [
   overview: "The presidencies of Kennedy and Johnson, Vietnam, Watergate, and other history unfold through the perspective of an Alabama man.",
   cast: ["Tom Hanks", "Robin Wright", "Gary Sinise"],
   director: "Robert Zemeckis",
-  mediaType: "movie",
   releaseDate: "1994-07-06",
   duration: "142 min",
   rating: 8.8,
@@ -369,7 +379,8 @@ const items = [
   availableOn: ["Netflix", "HBO Max"]
 },
 {
-  id: 18,
+  id: 1668,
+  mediaType: "tv",
   title: "Friends",
   type: "series",
   year: 1994,
@@ -379,9 +390,10 @@ const items = [
   backdrop: "https://image.tmdb.org/t/p/original/97l7Hwb8VWFsMEEqxvQoDDwAIML.jpg",
   overview: "Follows the personal and professional lives of six twenty to thirty-something friends living in Manhattan.",
   cast: ["Jennifer Aniston", "Courteney Cox", "Matthew Perry"],
-  mediaType: "tv",
+  director: "David Crane, Marta Kauffman",
   releaseDate: "1994-09-22",
   seasons: 10,
+  duration: "22 min per episode",
   rating: 8.9,
   voteCount: 130000,
   language: "en",
@@ -390,7 +402,8 @@ const items = [
   availableOn: ["HBO Max", "Netflix"]
 },
 {
-  id: 19,
+  id: 496243,
+  mediaType: "movie",
   title: "Parasite",
   type: "movie",
   year: 2019,
@@ -401,7 +414,6 @@ const items = [
   overview: "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
   cast: ["Song Kang-ho", "Lee Sun-kyun", "Cho Yeo-jeong"],
   director: "Bong Joon-ho",
-  mediaType: "movie",
   releaseDate: "2019-05-30",
   duration: "132 min",
   rating: 8.6,
@@ -412,7 +424,8 @@ const items = [
   availableOn: ["Hulu", "Amazon Prime"]
 },
 {
-  id: 20,
+  id: 87739,
+  mediaType: "tv",
   title: "The Queen's Gambit",
   type: "series",
   year: 2020,
@@ -422,9 +435,10 @@ const items = [
   backdrop: "https://image.tmdb.org/t/p/original/34OGjFEbHj0E3lE2w0iTUVq0CBz.jpg",
   overview: "Orphaned at the tender age of nine, prodigious introvert Beth Harmon discovers and masters the game of chess.",
   cast: ["Anya Taylor-Joy", "Bill Camp", "Marielle Heller"],
-  mediaType: "tv",
+  director: "Scott Frank",
   releaseDate: "2020-10-23",
   seasons: 1,
+  duration: "60 min per episode",
   rating: 8.7,
   voteCount: 60000,
   language: "en",
@@ -433,7 +447,8 @@ const items = [
   availableOn: ["Netflix"]
 },
 {
-  id: 21,
+  id: 37799,
+  mediaType: "movie",
   title: "The Social Network",
   type: "movie",
   year: 2010,
@@ -444,7 +459,6 @@ const items = [
   overview: "As Harvard students, Mark Zuckerberg and Eduardo Saverin create a social networking site that would become known as Facebook.",
   cast: ["Jesse Eisenberg", "Andrew Garfield", "Justin Timberlake"],
   director: "David Fincher",
-  mediaType: "movie",
   releaseDate: "2010-10-01",
   duration: "120 min",
   rating: 7.7,
@@ -455,7 +469,8 @@ const items = [
   availableOn: ["Netflix", "Amazon Prime"]
 },
 {
-  id: 22,
+  id: 87108,
+  mediaType: "tv",
   title: "Chernobyl",
   type: "series",
   year: 2019,
@@ -466,7 +481,6 @@ const items = [
   overview: "A dramatization of the true story of one of the worst man-made catastrophes in history: the catastrophic nuclear accident at Chernobyl.",
   cast: ["Jared Harris", "Stellan Skarsgård", "Emily Watson"],
   director: "Johan Renck",
-  mediaType: "tv",
   releaseDate: "2019-05-06",
   seasons: 1,
   duration: "70 min per episode",
@@ -478,7 +492,8 @@ const items = [
   availableOn: ["HBO Max"]
 },
 {
-  id: 23,
+  id: 94997,
+  mediaType: "tv",
   title: "House of the Dragon",
   type: "series",
   year: 2022,
@@ -489,7 +504,6 @@ const items = [
   overview: "Set 200 years before the events of Game of Thrones, tells the story of House Targaryen.",
   cast: ["Emma D'Arcy", "Matt Smith", "Olivia Cooke"],
   director: "Miguel Sapochnik",
-  mediaType: "tv",
   releaseDate: "2022-08-21",
   seasons: 2,
   duration: "60 min per episode",
@@ -501,7 +515,8 @@ const items = [
   availableOn: ["HBO Max"]
 },
 {
-  id: 24,
+  id: 557,
+  mediaType: "movie",
   title: "Spider-Man",
   type: "movie",
   year: 2002,
@@ -512,7 +527,6 @@ const items = [
   overview: "When bitten by a genetically modified spider, a nerdy, shy, and awkward high school student gains spider-like abilities.",
   cast: ["Tobey Maguire", "Kirsten Dunst", "Willem Dafoe"],
   director: "Sam Raimi",
-  mediaType: "movie",
   releaseDate: "2002-05-03",
   duration: "121 min",
   rating: 7.3,
@@ -523,7 +537,8 @@ const items = [
   availableOn: ["Netflix", "Disney+"]
 },
 {
-  id: 25,
+  id: 558,
+  mediaType: "movie",
   title: "Spider-Man 2",
   type: "movie",
   year: 2004,
@@ -534,7 +549,6 @@ const items = [
   overview: "Peter Parker is beset with troubles in his failing personal life as he battles a brilliant scientist named Doctor Otto Octavius.",
   cast: ["Tobey Maguire", "Kirsten Dunst", "Alfred Molina"],
   director: "Sam Raimi",
-  mediaType: "movie",
   releaseDate: "2004-06-30",
   duration: "127 min",
   rating: 7.4,
@@ -545,7 +559,8 @@ const items = [
   availableOn: ["Netflix", "Disney+"]
 },
 {
-  id: 26,
+  id: 559,
+  mediaType: "movie",
   title: "Spider-Man 3",
   type: "movie",
   year: 2007,
@@ -556,7 +571,6 @@ const items = [
   overview: "Peter Parker's life is complicated further when he battles new villains, temptations, and an inner darkness.",
   cast: ["Tobey Maguire", "Kirsten Dunst", "Thomas Haden Church"],
   director: "Sam Raimi",
-  mediaType: "movie",
   releaseDate: "2007-05-04",
   duration: "139 min",
   rating: 6.2,
@@ -567,7 +581,8 @@ const items = [
   availableOn: ["Netflix", "Disney+"]
 },
 {
-  id: 27,
+  id: 120,
+  mediaType: "movie",
   title: "The Lord of the Rings: The Fellowship of the Ring",
   type: "movie",
   year: 2001,
@@ -578,7 +593,6 @@ const items = [
   overview: "A meek Hobbit and eight companions set out on a journey to destroy the One Ring.",
   cast: ["Elijah Wood", "Ian McKellen", "Viggo Mortensen"],
   director: "Peter Jackson",
-  mediaType: "movie",
   releaseDate: "2001-12-19",
   duration: "178 min",
   rating: 8.8,
@@ -589,7 +603,8 @@ const items = [
   availableOn: ["HBO Max", "Amazon Prime Video"]
 },
 {
-  id: 28,
+  id: 121,
+  mediaType: "movie",
   title: "The Lord of the Rings: The Two Towers",
   type: "movie",
   year: 2002,
@@ -600,7 +615,6 @@ const items = [
   overview: "While Frodo and Sam edge closer to Mordor with the help of Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman.",
   cast: ["Elijah Wood", "Ian McKellen", "Viggo Mortensen"],
   director: "Peter Jackson",
-  mediaType: "movie",
   releaseDate: "2002-12-18",
   duration: "179 min",
   rating: 8.7,
@@ -611,7 +625,8 @@ const items = [
   availableOn: ["HBO Max", "Amazon Prime Video"]
 },
 {
-  id: 29,
+  id: 122,
+  mediaType: "movie",
   title: "The Lord of the Rings: The Return of the King",
   type: "movie",
   year: 2003,
@@ -622,7 +637,6 @@ const items = [
   overview: "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam.",
   cast: ["Elijah Wood", "Ian McKellen", "Viggo Mortensen"],
   director: "Peter Jackson",
-  mediaType: "movie",
   releaseDate: "2003-12-17",
   duration: "201 min",
   rating: 9.0,
@@ -633,7 +647,8 @@ const items = [
   availableOn: ["HBO Max", "Amazon Prime Video"]
 },
 {
-  id: 30,
+  id: 9297,
+  mediaType: "movie",
   title: "Monster House",
   type: "movie",
   year: 2006,
@@ -644,7 +659,6 @@ const items = [
   overview: "When three teens discover that their neighbor's house is actually a living, breathing monster, they must find a way to stop it before it devours the neighborhood.",
   cast: ["Mitchel Musso", "Sam Lerner", "Spencer Locke"],
   director: "Gil Kenan",
-  mediaType: "movie",
   releaseDate: "2006-07-21",
   duration: "91 min",
   rating: 6.6,
@@ -655,7 +669,8 @@ const items = [
   availableOn: ["Netflix", "Amazon Prime Video"]
 },
 {
-  id: 31,
+  id: 438631,
+  mediaType: "movie",
   title: "Dune: Part One",
   type: "movie",
   year: 2021,
@@ -666,7 +681,6 @@ const items = [
   overview: "A noble family becomes embroiled in a war for control over the galaxy's most valuable asset while its heir becomes troubled by visions of a dark future.",
   cast: ["Timothée Chalamet", "Rebecca Ferguson", "Oscar Isaac"],
   director: "Denis Villeneuve",
-  mediaType: "movie",
   releaseDate: "2021-10-22",
   duration: "155 min",
   rating: 8.1,
@@ -677,7 +691,8 @@ const items = [
   availableOn: ["HBO Max", "Amazon Prime Video"]
 },
 {
-  id: 32,
+  id: 693134,
+  mediaType: "movie",
   title: "Dune: Part Two",
   type: "movie",
   year: 2023,
@@ -688,7 +703,6 @@ const items = [
   overview: "Paul Atreides unites with Chani and the Fremen while seeking revenge against those who destroyed his family.",
   cast: ["Timothée Chalamet", "Zendaya", "Rebecca Ferguson"],
   director: "Denis Villeneuve",
-  mediaType: "movie",
   releaseDate: "2023-11-03",
   duration: "155 min",
   rating: 8.5,
@@ -699,7 +713,8 @@ const items = [
   availableOn: ["HBO Max", "Amazon Prime Video"]
 },
 {
-  id: 33,
+  id: 70523,
+  mediaType: "tv",
   title: "Dark",
   type: "series",
   year: 2017,
@@ -710,7 +725,6 @@ const items = [
   overview: "A family saga with a supernatural twist, set in a German town where the disappearance of two young children exposes the relationships among four families.",
   cast: ["Louis Hofmann", "Lisa Vicari", "Oliver Masucci"],
   director: "Baran bo Odar",
-  mediaType: "tv",
   releaseDate: "2017-12-01",
   seasons: 3,
   duration: "50 min per episode",
